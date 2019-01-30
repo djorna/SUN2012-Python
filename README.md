@@ -2,7 +2,8 @@
 A Python interface for the SUN2012 dataset.
 
 ## Dependencies
-* OpenCV
+* OpenCV (See installation instructions for [Windows](https://docs.opencv.org/2.4/doc/tutorials/introduction/windows_install/windows_install.html) or [Ubuntu](https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)
+* Python 3
 
 ## Build Instructions
 ### Windows
@@ -18,4 +19,4 @@ A Python interface for the SUN2012 dataset.
     python3 -m pip install -r requirements.txt # Install dependencies
 
 ## Usage
-See example usage in /notebooks.
+Coming soon...
