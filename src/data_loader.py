@@ -8,7 +8,6 @@ import json
 import xml.etree.ElementTree as ET
 import pandas as pd
 import os
-
 from matplotlib import pyplot as plt
 from matplotlib.lines import Line2D
 from numpy.random import random, randint
@@ -168,7 +167,6 @@ class SUNLoader:
       return "other"
 
 
-<<<<<<< HEAD
   def random_colour(self, seed=None):
     return (randint(255), randint(255), randint(255))
       
@@ -208,8 +206,3 @@ def load_image(file):
   img = cv2.imread(file)
   img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
   return img
-=======
-
-      
-
->>>>>>> 2143fb837b58af2288d20c39e77eea1aa3fcee57
