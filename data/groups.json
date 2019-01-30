@@ -1,0 +1,24 @@
+{
+  "groups" : {
+    "background" : ["sky", "sun"],
+    "grass" : ["grass", "lawn", "field grass"],
+    "vegetation" : ["vegetation", "plant", "plants", "flowers", "bushes",  "hedge", "shrub", "flower", "shrubs", "vegetables", "cactus", "topiary", "brush"],
+    "tree" : ["trees", "tree", "tree trunk", "palm tree", "tree occluded"],
+    "ground" :  ["snowy ground", "ground", "hill", "floor", "mountain", "stones", "stone"],
+    "snow" : ["snowy ground", "snowy mountain", "snow"],
+    "walkway" : ["traversable path", "sidewalk", "path", "walkway"],
+    "road" : ["road", "paving stone", "manhole cover", "curb", "paved stone"],
+    "water": ["water"],
+    "building" : ["house", "house crop", "house occluded", "building", "buildings",  "chimney", "window", "window occluded", "window crop", "roof", "pillar", "column", "columns", "fence", "fence occluded", "attic", "covered balcony", "balcony", "streetlight", "wall", "bricks", "railing", "porch", "shutter occluded", "shutter", "sconce", "trellis", "patio", "step", "steps", "staircase", "awning", "hut"],
+    "door": ["door", "door crop", "door occluded", "garage door", "garage door occluded", "double door", "double door crop", "sliding door"],
+    "vehicle" : ["truck", "car", "cars", "car front", "cars side", "car occluded", "car crop", "car rear  crop", "bus side", "van", "lawnmower", "motorbike", "motorbike occluded", "trailer"],
+    "person" :  ["person lying", "line persons", "person driver", "person working occluded", "person sitting occluded", "person model occluded", "person player", "persons", "person sitting", "person skiing occluded", "person sitting crop", "person skiing", "person bending over", "person ride occluded", "person sweping", "person working", "judge person", "person dancing occluded", "person model", "person playing", "person playing occluded", "climber person", "person dancing", "person skating", "person driving occluded", "person walking", "person cyclist", "skier person", "person riding", "person batter", "person porter", "person", "person walking occluded", "person porter crop", "person  standing occluded", "person  walking", "person jumping", "person dancing crop", "person  occluded", "person   occluded", "person crop", "person dressed up", "person occluded", "person standing crop", "person playing crop", "person standing occluded", "person player occluded", "person squatting", "person  sitting occluded", "person skiing crop", "person swimming", "person judoka", "person judoka occluded", "person running", "person go down", "person in line", "person  sitting", "person dancing occlude", "person cop", "person  standing", "a person", "person walking crop", "person occluded crop", "person  crop", "person standing", "person in blue jacket", "person ride", "person go up", "kneel person", "pole"],
+    "animal" : ["sheep",  "dog", "horse", "zebras", "hen", "bird", "animal", "seagull", "turtle"]
+  },
+  "exclude" : ["artificial golf green"],
+  "useful" : {
+    "object": ["trash can", "umbrella", "sprinkler", "box", "trash", "chair", "armchair", "armchair occluded", "pot", "plant pot", "plant pot crop", "wheelbarrow", "flag", "can"],
+    "stairs": ["step", "steps", "staircase"],
+    "information" : ["flag", "sign", "number"]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "groups" : {
+    "grass" : ["grass", "lawn", "field grass"]
+  },
+  "exclude" : ["artificial golf green"]
+}
