@@ -13,11 +13,9 @@ from matplotlib.lines import Line2D
 from numpy.random import random, randint
 
 
-
 class SUNLoader:
 
   def __init__(self, file_csv, groups_json, root_dir=".", np_dir="data/numpy"):
-
     self.known_cats = OrderedDict(json.load(open(groups_json))["groups"])
     self.n_categories = len(self.known_cats) + 2 # known categories + other + unlabelled
 
