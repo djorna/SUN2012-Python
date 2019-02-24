@@ -19,7 +19,7 @@ A Python interface for the [SUN2012](http://groups.csail.mit.edu/vision/SUN/) da
     python3-m virtualenv env && source env/bin/activate # (Optional) create virtual environment
     python3 -m pip install -r requirements.txt # Install dependencies
 
-## Usage
+## Example Usage
 ```Python
 from dataloader import SUNLoader
 from matplotlib import pyplot as plt
